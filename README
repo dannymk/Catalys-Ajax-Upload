@@ -1,0 +1,17 @@
+Run script/fileupload_server.pl to test the application.
+
+If you want to play with the JavaScript
+
+script/fileupload_server.pl -r &  
+
+cd JavaScriptSrc
+
+npm install
+
+npm start  <-- runs the WebPack development server
+
+# Once your changes are in place you can run
+npm run build
+
+# this last step will copy your javascript files to the Catalyst app "root" directory
+
