@@ -15,3 +15,16 @@ npm run dist
 
 # this last step will copy your javascript files to the Catalyst app "root" directory
 
+- forgot to mention one thing.  If you are tring to play with the javascript you MUST change
+
+axios.post('/upload', data )
+
+to
+
+axios.post('/api/upload', data )
+
+In the file:  JavaScript/src/components/Main.js
+
+This is because Catalyst is listening on port: 3000 and the JavaScript test server is listening on port: 8000
+
+Make sure you change it back before runing "npm run dist"
