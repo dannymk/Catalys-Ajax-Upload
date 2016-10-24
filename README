@@ -11,7 +11,7 @@ npm install
 npm start  <-- runs the WebPack development server
 
 # Once your changes are in place you can run
-npm run build
+npm run dist
 
 # this last step will copy your javascript files to the Catalyst app "root" directory
 
